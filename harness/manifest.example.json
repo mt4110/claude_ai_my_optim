@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "example-not-authorized",
+  "task_id": "TASK-EXAMPLE",
+  "repository": "set-by-human",
+  "baseline": {
+    "commit": "set-by-human",
+    "initial_workspace_snapshot": "set-by-trusted-launcher"
+  },
+  "contract_sha256": "set-by-trusted-launcher",
+  "execution_environment": "isolated-no-host-credentials",
+  "approval_reference": "external-human-approval-required",
+  "expires_at": null,
+  "write_paths": [],
+  "protected_paths": [
+    ".claude/**",
+    "CLAUDE.md",
+    "CLAUDE.local.md",
+    "AGENTS.md",
+    "PERSONAL.md",
+    ".github/**",
+    "docs/work/**"
+  ],
+  "operations": {
+    "general_shell": false,
+    "deletion": false,
+    "network_side_effects": false,
+    "publication": false,
+    "production_changes": false,
+    "subagents": false
+  },
+  "verification_jobs": [],
+  "budget": {
+    "wall_time_seconds": null,
+    "max_retries": null,
+    "provider_budget": null
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "defaultMode": "plan",
+    "disableBypassPermissionsMode": "disable",
+    "disableAutoMode": "disable",
+    "ask": ["WebFetch", "WebSearch"],
+    "deny": [
+      "Bash",
+      "Monitor",
+      "Edit",
+      "Write",
+      "NotebookEdit",
+      "Agent",
+      "mcp__*",
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  }
+}
